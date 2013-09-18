@@ -1,15 +1,56 @@
 Introduction To Go
+RPI Computing Club
+18:00 18 Sep 2013
+Tags: Introduction, RPI
 
-Bharath Santosh
-Colin Rice
+Author Bharath Santosh
 
-* What is Go? 
+Author Colin Rice
 
-Foo
+* What is Go?
 
-* Quick Introduction
+Go is an open source programming environment that makes it easy to build simple, reliable, and efficient software
+
+.image images/gopher.png
+
+* Who Wrote It?
+
+.image images/Googlelogo.png 156 456
+
+.image images/Rob-pike.jpg 496 341
+
+* Part 2
+
+.image images/Ken_n_dennis.jpg
+
+.image images/96.png
+
+* Why did they write it
+
+
+* Who Uses It?
+
+.link http://dl.google.com dl.google.com
+.link http://cloudlfare.com clouflare.com
+.link http://docker.io docker.io
+This Presentation
+And a bunch of others
+
+* A Tour Of Go
+
+* Hello Golang
 
 .play hello.go
+
+* Arrays
+
+* Slices
+
+.image images/slice.webp
+
+* Slices
+
+.image images/slice2.webp
 
 * Structs
 
