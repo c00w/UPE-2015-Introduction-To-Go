@@ -27,12 +27,21 @@ Go is an open source programming environment that makes it easy to build simple,
 
 * Why did they write it
 
+Go was designed with Systems Programming in mind
+
+Databases, Caches, Load Balances, ...
+
+Also used for writing Web Apps, Google Doodles, Games, Graphics Tools
+
 
 * Who Uses It?
 
 .link http://dl.google.com dl.google.com
-.link http://cloudlfare.com clouflare.com
-.link http://docker.io docker.io
-This Presentation
-And a bunch of others
 
+.link http://cloudlfare.com clouflare.com
+
+.link http://docker.io docker.io
+
+This Presentation
+
+Your Next Project?
