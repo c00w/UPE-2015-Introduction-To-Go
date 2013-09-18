@@ -2,10 +2,14 @@
 Foo
 
 ## Installation
+
 ### Go
-Foo
+http://golang.org/doc/install
+
 ### Presentation
-Foo
+```
+go get code.google.com/p/go.talks/present
+```
 
 ## Viewing Presentation
 Foo
