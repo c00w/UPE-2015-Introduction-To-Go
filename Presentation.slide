@@ -81,6 +81,10 @@ The better array
 
 .play slice.go
 
+* Maps
+
+.play maps.go
+
 * Structs
 
 .code geometry/geometry.go
