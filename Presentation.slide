@@ -39,6 +39,17 @@ Databases, Caches, Load Balances, ...
 
 Also used for writing Web Apps, Google Doodles, Games, Graphics Tools
 
+Main Reasons
+
+Fast Compiling
+
+Collaboration
+
+Concurrency
+
+"Grouphugs, Goroutings, GCC sucks"
+-Colin Rice
+
 * Who Uses It?
 
 .link http://dl.google.com dl.google.com
@@ -173,3 +184,11 @@ Otherwise print the number
 Advanced Mode:
 Do this using at least two channels and three go routines, and kill them when done
 Do this using the read interface
+
+* Jumpstart
+
+.link http://golang.org
+.link http://tour.golang.org
+.link http://golang.org/doc/effective_go.html
+.link http://godoc.org
+
