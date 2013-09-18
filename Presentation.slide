@@ -95,7 +95,7 @@ The better array
 
 * cGo
 
-.run cgo.go
+.play cgo.go
 
 * Kitchen Sink
 
