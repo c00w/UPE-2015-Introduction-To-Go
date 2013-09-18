@@ -147,15 +147,13 @@ Asynchrnous channel that only blocks after 100 items in channel's queue
 
 .link http://play.golang.org/p/jTG5ikGdpQ
 
-
-
-
 * cGo
 
 .play cgo.go
 
 * Kitchen Sink
 
+.link http://golang.org/pkg/
 ssh client
 crypto/*
 go fmt
