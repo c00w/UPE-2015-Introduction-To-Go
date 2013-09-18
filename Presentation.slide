@@ -60,6 +60,15 @@ Your Next Project?
 
 * Arrays
 
+* Arrays Suck
+
+"Arrays are ok"
+-Bharath Santosh
+
+* Slices
+
+The better array
+
 * Slices
 
 .image images/slice.webp
@@ -67,6 +76,10 @@ Your Next Project?
 * Slices
 
 .image images/slice2.webp
+
+* Slices
+
+.code slice.go
 
 * Structs
 
