@@ -4,7 +4,7 @@ import ( //OMIT
     "fmt" //OMIT
     "net/http" //OMIT
 ) //OMIT
-
+//OMIT
 func fill(s []byte, l byte) { // OMIT
     for i:=byte(0); i < l; i++ { //OMIT
         s[i] = byte('a') + i //OMIT

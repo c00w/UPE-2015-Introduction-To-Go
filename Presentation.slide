@@ -79,7 +79,7 @@ The better array
 
 * Slices
 
-.code slice.go
+.play slice.go
 
 * Structs
 
