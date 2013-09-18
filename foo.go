@@ -1,15 +1,24 @@
 package main
-import (
-    "fmt"
-    "net/http"
-    "foo"
-)
+// OMIT
+import ( //OMIT
+    "fmt" //OMIT
+    "net/http" //OMIT
+) //OMIT
+//OMIT
+func fill(s []byte, l byte) { // OMIT
+    for i:=byte(0); i < l; i++ { //OMIT
+        s[i] = byte('a') + i //OMIT
+    } //OMIT
+} //OMIT
+
 func main() {
     a := make([]byte, 10)
-    foo.fill(a, 10)
+    fill(a, 10)
     fmt.Printf("Capacity of a is %d\n", cap(a))
 
-    c := append(a, 'h', 'i', '!')
+    c := append(a, 'h')
+    c = append(c, 'i')
+    c = append(c, '!')
     c = append(c, c...)
 
     fmt.Printf("Capacity of c is %d\n", cap(c))
