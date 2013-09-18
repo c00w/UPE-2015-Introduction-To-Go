@@ -116,5 +116,5 @@ If the number %15 is 0 (%3 & %5 == 0) print FizzBuzz
 Otherwise print the number
 
 Advanced Mode:
-Do this using at least two channels, and kill them when done
+Do this using at least two channels and three go routines, and kill them when done
 Do this using the read interface
