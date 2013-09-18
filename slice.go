@@ -19,13 +19,13 @@ func main() {
     c := append(a, 'h')
     c = append(c, 'i')
     c = append(c, '!')
-
     c = append(c, c...)
 
     fmt.Printf("Capacity of c is %d\n", cap(c))
     fmt.Printf("C is \"%s\"\n", string(c))
 
     resp, _ := http.Get("http://rcos.rpi.edu")
+    defer resp.Body.Close()
 
     buf := make([]byte, 128)
 
