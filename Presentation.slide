@@ -7,7 +7,7 @@ Bharath Santosh
 
 Colin Rice
 
-* What is Go? 
+* What is Go?
 Go is an open source programming environment that makes it easy to build simple, reliable, and efficient software
 
 * Who Wrote It?
@@ -15,7 +15,7 @@ Google
 Rob Pike
 Ken Thompson
 
-*Who Uses It?
+* Who Uses It?
 .link dl.google.com
 .link cloudlfare.com
 .link docker.io
