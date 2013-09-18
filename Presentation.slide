@@ -3,9 +3,9 @@ RPI Computing Club
 18:00 18 Sep 2013
 Tags: Introduction, RPI
 
-Author Bharath Santosh
+Bharath Santosh
 
-Author Colin Rice
+Colin Rice
 
 * What is Go?
 
@@ -17,24 +17,37 @@ Go is an open source programming environment that makes it easy to build simple,
 
 .image images/Googlelogo.png 156 456
 
+Rob Pike
 .image images/Rob-pike.jpg 496 341
 
-* Part 2
+* Who Wrote It?
 
+Ken Thompson
 .image images/Ken_n_dennis.jpg
 
+Robert Griesemer
 .image images/96.png
 
 * Why did they write it
 
+Go was designed with Systems Programming in mind
+
+Databases, Caches, Load Balances, ...
+
+Also used for writing Web Apps, Google Doodles, Games, Graphics Tools
 
 * Who Uses It?
 
 .link http://dl.google.com dl.google.com
+
 .link http://cloudlfare.com clouflare.com
+
 .link http://docker.io docker.io
+
 This Presentation
-And a bunch of others
+
+Your Next Project?
+
 
 * A Tour Of Go
 
@@ -59,3 +72,4 @@ And a bunch of others
 * Structs
 
 .play structs.go
+
