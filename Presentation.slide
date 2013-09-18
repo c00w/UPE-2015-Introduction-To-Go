@@ -48,7 +48,6 @@ This Presentation
 
 Your Next Project?
 
-
 * A Tour Of Go
 
 * Hello Golang
@@ -67,9 +66,67 @@ Your Next Project?
 
 * Structs
 
-.code geometry/geometry.go
+.code geometry/geometry.go  
 
-* Structs
+* Intefaces
 
-.play structs.go
+.play interfaces.go
+.link http://tour.golang.org/#54
+
+* Concurrency
+
+* Concurrency
+
+Communicating Sequential Processes
+
+Lightweight threads - goroutines 
+
+Communication over unix-like pipes - channels
+
+* Goroutines
+
+  go foo(bar)
+
+- Executes a function call in a lightweight threads
+
+- Costs just a couple KB
+
+- Can run hundreds of thousands on one machine
+
+- Have their own effectively infinite stack
+
+- Distributed over multiple cores
+
+*  Channels
+
+   channel := make(chan string)
+
+Construct a syncronous channel that commumicates strings
+
+   channel <- "bar"
+
+Send the string into the channel
+
+   foo := <-channel
+
+Block and wait until there is something in the channel to take
+
+   asynCh := make(chan string, 100)
+
+Asynchrnous channel that only blocks after 100 items in channel's queue
+
+* Concurrency Examples - Concurrent IO
+
+.play goroutines.go
+
+* Concurrency Examples - Workers
+
+.link http://play.golang.org/p/rEIhu5Ml1G
+
+* Concurrency Examples - Conncurrent Prime Sieve
+
+.link http://play.golang.org/p/jTG5ikGdpQ
+
+
+
 
