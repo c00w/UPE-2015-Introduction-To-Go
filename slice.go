@@ -20,7 +20,6 @@ func main() {
 	resp, _ := http.Get("http://rcos.rpi.edu")
 	defer resp.Body.Close()
 
-	buf := make([]byte, 128)
-	n, _ := resp.Body.Read(buf[0:32])
-	fmt.Printf("32 bytes read = \"%s\"\n", string(buf[0:n]))
+	n, _ := resp.Body.Read(c[0:20])
+	fmt.Printf("32 bytes read = \"%s\"\n", string(c[0:n]))
 }
