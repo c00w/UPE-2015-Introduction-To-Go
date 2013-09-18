@@ -18,14 +18,17 @@ Go is an open source programming environment that makes it easy to build simple,
 .image images/Googlelogo.png 156 456
 
 Rob Pike
+
 .image images/Rob-pike.jpg 496 341
 
 * Who Wrote It?
 
 Ken Thompson
+
 .image images/Ken_n_dennis.jpg
 
 Robert Griesemer
+
 .image images/96.png
 
 * Why did they write it
@@ -56,6 +59,15 @@ Your Next Project?
 
 * Arrays
 
+* Arrays Suck
+
+"Arrays are... ok"
+-Bharath Santosh
+
+* Slices
+
+The better array
+
 * Slices
 
 .image images/slice.webp
@@ -63,6 +75,14 @@ Your Next Project?
 * Slices
 
 .image images/slice2.webp
+
+* Slices
+
+.play slice.go
+
+* Maps
+
+.play maps.go
 
 * Structs
 
@@ -130,3 +150,28 @@ Asynchrnous channel that only blocks after 100 items in channel's queue
 
 
 
+* cGo
+
+.play cgo.go
+
+* Kitchen Sink
+
+ssh client
+crypto/*
+go fmt
+go vet
+go fix
+
+* FizzBuzz
+
+Write FizzBuzz
+
+Print the numbers from 1 to 100 as follows
+If the number % 3 is 0 print Fizz
+If the number % 5 is 0 print Buzz
+If the number %15 is 0 (%3 & %5 == 0) print FizzBuzz
+Otherwise print the number
+
+Advanced Mode:
+Do this using at least two channels and three go routines, and kill them when done
+Do this using the read interface
