@@ -93,3 +93,10 @@ The better array
 
 .play structs.go
 
+* Kitchen Sink
+
+ssh client
+crypto/*
+go fmt
+go vet
+go fix
