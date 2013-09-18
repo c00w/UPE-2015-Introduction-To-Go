@@ -1,18 +1,18 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 func main() {
-    heights := make(map[string]int)
-    heights["bharath"] = 5
-    heights["colin"] = 6
+	heights := make(map[string]int)
+	heights["bharath"] = 5
+	heights["colin"] = 6
 
-    fmt.Println(heights)
-    fmt.Println(heights["joe"])
+	fmt.Println(heights)
+	fmt.Println(heights["joe"])
 
-    for k,v := range(heights) {
-        fmt.Printf("%s is %d feet high\n", k, v)
-    }
+	for k, v := range heights {
+		fmt.Printf("%s is %d feet high\n", k, v)
+	}
 }
