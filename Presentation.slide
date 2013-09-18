@@ -4,4 +4,17 @@ Bharath Santosh
 Colin Rice
 
 * What is Go? 
-bar
+
+Foo
+
+* Quick Introduction
+
+.play hello.go
+
+* Structs
+
+.code geometry/geometry.go
+
+* Structs
+
+.play structs.go
