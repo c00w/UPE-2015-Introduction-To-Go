@@ -1,15 +1,15 @@
 package main
+// OMIT
+import ( //OMIT
+    "fmt" //OMIT
+    "net/http" //OMIT
+) //OMIT
 
-import (
-    "fmt"
-    "net/http"
-)
-
-func fill(s []byte, l byte) {
-    for i:=byte(0); i < l; i++ {
-        s[i] = byte('a') + i
-    }
-}
+func fill(s []byte, l byte) { // OMIT
+    for i:=byte(0); i < l; i++ { //OMIT
+        s[i] = byte('a') + i //OMIT
+    } //OMIT
+} //OMIT
 
 func main() {
     a := make([]byte, 10)
