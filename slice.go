@@ -6,7 +6,7 @@ import (
 )
 func main() {
     a := make([]byte, 10)
-    foo.fill(a, 10)
+    foo.Fill(a, 10)
     fmt.Printf("Capacity of a is %d\n", cap(a))
 
     c := append(a, 'h', 'i', '!')
@@ -19,7 +19,6 @@ func main() {
     defer resp.Body.Close()
 
     buf := make([]byte, 128)
-
     n, _ := resp.Body.Read(buf[0:32])
     fmt.Printf("32 bytes read = \"%s\"\n", string(buf[0:n]))
 }
