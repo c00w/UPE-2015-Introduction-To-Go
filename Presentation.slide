@@ -1,11 +1,18 @@
 Introduction To Go
-RPI Computing Club
-18:00 18 Sep 2013
+UPE IO
+18:00 20 Feb 2015
 Tags: Introduction, RPI
 
-Bharath Santosh
-
 Colin Rice
+
+(Previously Bharath Santosh)
+
+* Obligatory Statement
+
+I work for Google. This presentation is not an official Google presentation,
+and is purely my own opinion.
+
+If this statement confuses you, please come talk to me afterwards.
 
 * What is Go?
 
@@ -15,39 +22,29 @@ Go is an open source programming environment that makes it easy to build simple,
 
 * Who Wrote It?
 
-.image images/Googlelogo.png 156 456
+.link https://golang.org/doc/faq#history https://golang.org/doc/faq#history
 
-Rob Pike
-
-.image images/Rob-pike.jpg 496 341
-
-* Who Wrote It?
-
-Ken Thompson
-
-.image images/Ken_n_dennis.jpg
-
-Robert Griesemer
-
-.image images/96.png
+Originally
+Rob Pike, Ken Thompson, Robert Griesemer
++ Ian Lance Taylor, Russ Cox + Lots of other people.
 
 * Why did they write it
 
-Go was designed with Systems Programming in mind
+Go was designed with systems programming in mind.
 
 Databases, Caches, Load Balances, ...
 
-Also used for writing Web Apps, Google Doodles, Games, Graphics Tools
+Also used for writing Web Services, Google Doodles, Games, Graphics Tools
 
-Main Reasons
+Main Reasons (debatable)
 
-Fast Compiling
+Fast Compilation
 
 Collaboration
 
 Concurrency
 
-"Grouphugs, Goroutings, GCC sucks"
+"Grouphugs, Goroutines, GCC is an impolite word"
 -Colin Rice
 
 * Who Uses It?
@@ -57,6 +54,8 @@ Concurrency
 .link http://cloudlfare.com clouflare.com
 
 .link http://docker.io docker.io
+
+.link http://coreos.com coreos.com
 
 This Presentation
 
@@ -70,7 +69,7 @@ Your Next Project?
 
 * Arrays
 
-* Arrays Suck
+* Arrays are an impolite word
 
 "Arrays are... ok"
 -Bharath Santosh
@@ -80,6 +79,8 @@ Your Next Project?
 The better array
 
 * Slices
+
+.link https://blog.golang.org/go-slices-usage-and-internals blog.golang.org/go-slices-usage-and-internals
 
 .image images/slice.webp
 
@@ -97,12 +98,12 @@ The better array
 
 * Structs
 
-.code geometry/geometry.go  
+.code geometry/geometry.go
 
-* Intefaces
+* Interfaces
 
 .play interfaces.go
-.link http://tour.golang.org/#54
+.link https://tour.golang.org/methods/5
 
 * Concurrency
 
@@ -110,7 +111,7 @@ The better array
 
 Communicating Sequential Processes
 
-Lightweight threads - goroutines 
+Lightweight threads / Coroutines - goroutines
 
 Communication over unix-like pipes - channels
 
@@ -118,15 +119,15 @@ Communication over unix-like pipes - channels
 
   go foo(bar)
 
-- Executes a function call in a lightweight threads
+- Executes a function call in a lightweight coroutine
 
-- Costs just a couple KB
+- Costs just a few KB
 
 - Can run hundreds of thousands on one machine
 
-- Have their own effectively infinite stack
+- Have their own effectively 'infinite' stack
 
-- Distributed over multiple cores
+- Can be distributed over multiple cores
 
 *  Channels
 
@@ -144,7 +145,7 @@ Block and wait until there is something in the channel to take
 
    asynCh := make(chan string, 100)
 
-Asynchrnous channel that only blocks after 100 items in channel's queue
+Asynchronous channel that only blocks after 100 items in channel's queue
 
 * Concurrency Examples - Concurrent IO
 
@@ -165,11 +166,20 @@ Asynchrnous channel that only blocks after 100 items in channel's queue
 * Kitchen Sink
 
 .link http://golang.org/pkg/
-ssh client
-crypto/*
-go fmt
-go vet
-go fix
+
+go fmt, vet, fix
+
+.link https//godoc.org/golang.org/x/crypto
+
+.link http://godoc.org/golang.org/x/crypto/ssh
+
+.link http://godoc.org/golang.org/x/tools
+
+oracle
+gomvpkg
+goimports
+eg
+present
 
 * FizzBuzz
 
@@ -182,7 +192,7 @@ If the number %15 is 0 (%3 & %5 == 0) print FizzBuzz
 Otherwise print the number
 
 Advanced Mode:
-Do this using at least two channels and three go routines, and kill them when done
+Do this using at least two channels and three goroutines, and kill them when done
 Do this using the read interface
 
 * Jumpstart
