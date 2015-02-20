@@ -32,7 +32,7 @@ Rob Pike, Ken Thompson, Robert Griesemer
 
 Go was designed with systems programming in mind.
 
-Databases, Caches, Load Balances, ...
+Databases, Caches, Load Balancers, ...
 
 Also used for writing Web Services, Google Doodles, Games, Graphics Tools
 

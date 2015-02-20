@@ -8,7 +8,7 @@ func main() {
 	fmt.Println("Hello 世界")
 
 	var foo int = 10
-	var bar int = 5
+	bar := 5
 
 	sum, product := SumAndProduct(foo, bar)
 	fmt.Printf("X: %d\tY: %d\nSum: %d\nProduct: %d", foo, bar, sum, product)
